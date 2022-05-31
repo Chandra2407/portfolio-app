@@ -1,0 +1,39 @@
+header{
+    overflow: hidden;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color: var(--clr-primary);
+    height: 100vh;
+}
+.buttons{
+    margin: 0.5rem 0;
+}
+.header-container{
+    text-align: center;
+}
+.me{
+    width: 35rem;
+    height: 28rem;
+}
+h1{
+    font-size: 3.5rem;
+}
+
+  
+  @media screen and (max-width:768px){
+    .me{
+        border-radius: 10px;
+        overflow: hidden;
+        width: 30rem;
+        height: 22rem;
+    }
+    header{
+        padding-top: 5rem;
+    }
+    h1{
+        font-size: 2.5rem;
+    }
+    
+  }

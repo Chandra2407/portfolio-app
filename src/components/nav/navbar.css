@@ -1,0 +1,10 @@
+nav{
+    padding: 1rem;
+    position: fixed;
+    background-color: var(--clr-bg);
+    width: 100%;
+    margin-bottom: 2rem;
+}
+nav *{
+    margin: 0 1rem;
+}
