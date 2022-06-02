@@ -6,6 +6,7 @@ import proj2 from  '../../assets/portfolio2.png'
 import proj3 from  '../../assets/portfolio3.png'
 import proj4 from  '../../assets/portfolio4.png'
 import proj5 from  '../../assets/portfolio5.png'
+import proj6 from  '../../assets/portfolio6.png'
 
 const Portfolio = () => {
   return (
@@ -33,6 +34,10 @@ const Portfolio = () => {
             <Project title='Accordion Tool' img={proj5}
             url="https://priceless-mcnulty-243678.netlify.app/"
             code="https://github.com/Chandra2407/faq-accordion-card-main"
+            />
+            <Project title='Portfolio App' img={proj6}
+            url="https://chandrak-portfolio.netlify.app/"
+            code="https://github.com/Chandra2407/portfolio-app"
             />
        </div>
     </section>
