@@ -1,3 +1,4 @@
+
 #Contact h2{
     font-size: 2.2rem;
 }
@@ -28,6 +29,7 @@
     width: 250px;
     align-self: center;
     text-align: center;
+    margin-top: 2rem;
 }
 .input1{
     width: 100%;
@@ -43,7 +45,7 @@
 
 @media screen and (max-width:1024px){
     .contact-container{
-        padding: 0 2rem;
+        padding: 0 0rem;
     }
   }
   

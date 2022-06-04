@@ -10,7 +10,7 @@ const Contact = () => {
     
     emailjs.sendForm('service_rwy04mb', 'template_a77uxdp', form.current, 'tMe8GCGl4uc7w7CdM')
       .then((result) => {
-          console.log(result.text);
+          // console.log(result.text);
       }, (error) => {
           console.log(error.text);
       });
@@ -22,11 +22,11 @@ const Contact = () => {
     <h2>Contact Me</h2>
       <form action="" className="container contact-container" autoComplete='off'  ref={form} onSubmit={sendEmail}>
           <div className="input1">
-            <input type="text" name='name' placeholder='Your Name'/>
-            <input type="email" name='email' autoComplete='off' placeholder='Your Email' />
+            <input required type="text" name='name' placeholder='Your Name' />
+            <input required type="email" name='email' autoComplete='off' placeholder='Your Email' />
           </div>
-        <input type="text" name="subject"placeholder='Subject' />
-        <textarea cols="10" rows="6" name='message' placeholder='Message'></textarea>
+        <input required type="text" name="subject"placeholder='Subject' />
+        <textarea required minLength={10} cols="10" rows="6" name='message' placeholder='Message'></textarea>
           <button className='btn' type='submit'>Send Message</button>
       </form>
     </section>

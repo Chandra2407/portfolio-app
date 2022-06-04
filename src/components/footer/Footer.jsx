@@ -1,9 +1,12 @@
 import React from 'react'
 import './footer.css'
+import {FaCopyright} from 'react-icons/fa'
 
 const Footer = () => {
   return (
-    <div>Footer</div>
+        <div id="Footer">
+          No <FaCopyright/> copyright issues
+        </div>
   )
 }
 

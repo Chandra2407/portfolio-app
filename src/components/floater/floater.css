@@ -1,0 +1,37 @@
+#floater{
+    position: fixed;
+    bottom:0;
+    right: 0;
+    /* background-color: red; */
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 10px;
+    padding: 10px;
+    padding-right: 25px;
+    font-size: 25px;
+}
+#floater a:nth-child(4):hover{
+    color: rgb(248, 129, 129);
+}
+
+@media screen and (max-width:1024px){
+        #floater{
+            padding-right: 12px;
+            font-size: 24px;
+        }
+  }
+  
+  @media screen and (max-width:600px){
+    #floater{
+        /* background-color: red; */
+        position: static;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        gap: 20px;
+        padding-bottom: 2px;
+        font-size: 25px;
+        background-color: var(--clr-primary);
+    }
+  }

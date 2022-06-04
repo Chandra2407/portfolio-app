@@ -25,6 +25,7 @@
 
 html {
   scroll-behavior: smooth;
+  scroll-padding-top: 150px;
 }
 
 ::-webkit-scrollbar {
@@ -107,7 +108,9 @@ img{
   section{
     margin-top: 6rem;
   }
-
+  html{
+    scroll-padding-top: 30px;
+  }
 }
 
 @media screen and (max-width:600px){
@@ -117,5 +120,7 @@ img{
   section>h2{
     margin-bottom: 2rem;
   }
-  
+  html{
+    scroll-padding-top: 35px;
+  }
 }
