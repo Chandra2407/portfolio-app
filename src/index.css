@@ -25,6 +25,8 @@
 
 html {
   scroll-behavior: smooth;
+  /* scroll-snap-type: y mandatory;
+  overflow-y: scroll; */
   scroll-padding-top: 150px;
 }
 
@@ -53,6 +55,7 @@ h5{
 }
 section{
   margin-top: 8rem;
+  /* scroll-snap-align: start; */
 }
 section > h2,section >h5{
   text-align: center;

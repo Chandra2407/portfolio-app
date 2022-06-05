@@ -1,8 +1,10 @@
 import React from 'react'
 import './experience.css'
-import { motion} from "framer-motion"
+// import { motion} from "framer-motion"
 
-const Skill = ({ skill, rating }) => {
+
+const Skill = ({ skill, rating,AOS }) => {
+
     return (
         <div className="skill">
             <div className="data">
@@ -10,10 +12,10 @@ const Skill = ({ skill, rating }) => {
                 <h5>{rating}</h5>
             </div>
             <div className="bar-container">
-                <motion.div className="bar" 
+                <div data-aos ="fade-right" className="bar" 
                 style={{width:rating}}   
                 >
-                </motion.div>
+                </div>
             </div>
         </div>
     )

@@ -4,6 +4,7 @@ import {SiLeetcode} from 'react-icons/si'
 import './floater.css'
 
 const Floater = () => {
+    
   return (
     <div id='floater'>
         <a href="https://github.com/Chandra2407" target="_blank" rel="noreferrer"><FaGithub/></a>
