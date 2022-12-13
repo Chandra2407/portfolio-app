@@ -7,6 +7,8 @@ import proj3 from  '../../assets/portfolio3.png'
 import proj4 from  '../../assets/portfolio4.png'
 import proj5 from  '../../assets/portfolio5.png'
 import proj6 from  '../../assets/portfolio6.png'
+import proj7 from '../../assets/portfolio7.jpg'
+import proj8 from '../../assets/portfolio8.jpg'
 
 const Portfolio = () => {
   return (
@@ -38,6 +40,14 @@ const Portfolio = () => {
             <Project title='Portfolio App' img={proj6}
             url="https://chandrak-portfolio.netlify.app/"
             code="https://github.com/Chandra2407/portfolio-app"
+            />
+            <Project title='Otaku-Hub' img={proj7}
+            url="https://otaku-hub.netlify.app/"
+            code="https://github.com/Chandra2407/Otaku-Hub"
+            />
+            <Project title='Otaku-Hub' img={proj8}
+            url="https://rock-paper-scissors-offline.netlify.app/"
+            code="#"
             />
        </div>
     </section>
